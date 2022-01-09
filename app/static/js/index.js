@@ -152,7 +152,7 @@ function retrieveCustomerByVillageID() {
                 </ul>   
             `
                 
-            modalAlert("",msg)
+            modalAlert("Member Data",msg)
             document.getElementById('lightspeedID').value = data.lightspeedID
             document.getElementById('prtTransactionsID').removeAttribute('disabled')
         })
